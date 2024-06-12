@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <style>
+        /* Estilos CSS (personaliza según tus preferencias) */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* ... otros estilos ... */
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#conocenos">Conócenos</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <!-- Formulario de inicio de sesión -->
+    <div id="inicio">
+        <h2>Iniciar sesión</h2>
+        <form action="procesar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+    </div>
+
+    <!-- Otras secciones (Conócenos, Productos, Registro, Contacto) -->
+    <div id="conocenos">
+        <!-- Contenido de la sección "Conócenos" -->
+    </div>
+    <div id="productos">
+        <!-- Contenido de la sección "Productos" -->
+    </div>
+    <div id="registro">
+        <!-- Contenido de la sección "Registro" -->
+    </div>
+    <div id="contacto">
+        <!-- Contenido de la sección "Contacto" -->
+    </div>
+</body>
+</html>
